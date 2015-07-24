@@ -1,0 +1,459 @@
+Description: Birth names, birth year, birth country, sex
+Samples selected:
+      Canada 1852 (20%)
+            Note: Includes both de jure and de facto concepts; use RESIDENT variable to prevent double-counting some persons.  Data are missing from several sub-districts, including Montreal and Toronto. Urban areas are underrepresented.
+            Density of the full data file:  20.0%
+            Density of your extract: 20.0%
+
+      Canada 1871 (5%)
+            Note: 
+            Density of the full data file:  5.0%
+            Density of your extract: 5.0%
+
+      Canada 1881 (100%)
+            Note: 
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Canada 1891 (9%)
+            Note: Composed of three subsamples:  5% , 10% and 100%
+            Density of the full data file:  9.0%
+            Density of your extract: 9.0%
+
+      Canada 1901 (5%)
+            Note: 
+            Density of the full data file:  5.0%
+            Density of your extract: 5.0%
+
+      Great Britain 1851 (2%)
+            Note: Cluster sample of parishes
+            Density of the full data file:  2.0%
+            Density of your extract: 2.0%
+
+      England and Wales 1881 (100%)
+            Note: England and Wales only
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Scotland 1881 (100%)
+            Note: Scotland only
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Iceland 1801 (100%)
+            Note: 
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Iceland 1901 (100%)
+            Note: Includes both de jure and de facto concepts; use RESIDENT variable to prevent double-counting some persons
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Mecklenburg-Schwerin 1819 (6%)
+            Note: Highly clustered sample
+            Density of the full data file:  6.0%
+            Density of your extract: 6.0%
+
+      Norway 1801 (100%)
+            Note: 
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Norway 1865 (100%)
+            Note: 
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Norway 1875 (2%)
+            Note: Includes both de jure and de facto concepts; use RESIDENT variable to prevent double-counting some persons
+            Density of the full data file:  2.0%
+            Density of your extract: 2.0%
+
+      Norway 1900 (100%)
+            Note: Includes both de jure and de facto concepts; use RESIDENT variable to prevent double-counting some persons
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Norway 1910 (100%)
+            Note: Includes both de jure and de facto concepts; use RESIDENT variable to prevent double-counting some persons
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Sweden 1890 (100%)
+            Note: 
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      Sweden 1900 (100%)
+            Note: 
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      United States 1850 (1%)
+            Note: 
+            Density of the full data file:  1.0%
+            Density of your extract: 1.0%
+
+      United States 1860 (1%)
+            Note: 
+            Density of the full data file:  1.0%
+            Density of your extract: 1.0%
+
+      United States 1870 (1%)
+            Note: 
+            Density of the full data file:  1.0%
+            Density of your extract: 1.0%
+
+      United States 1880 (100%)
+            Note: Lacks education and disability variables
+            Density of the full data file:  100.0%
+            Density of your extract: 100.0%
+
+      United States 1880 (10%)
+            Note: 
+            Density of the full data file:  10.0%
+            Density of your extract: 10.0%
+
+      United States 1900 (5%)
+            Note: 
+            Density of the full data file:  5.0%
+            Density of your extract: 5.0%
+
+      United States 1910 (1%)
+            Note: 
+            Density of the full data file:  1.0%
+            Density of your extract: 1.0%
+
+File Type:                    rectangular
+Case Selection:               No
+  Variable               Columns        Len    CA52    CA71    CA81    CA91    CA01    GB51    GB81    GB81    IS01    IS01    MS19    NO01    NO65    NO75    NO00    NO10    SE90    SE00    US50    US60    US70    US80    US80    US00    US10   
+  SAMPLE             H   1-4            4      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  SERIAL             H   5-14          10      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  CNTRY              H  15-17           3      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  YEAR               H  18-21           4      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  HHWT               H  22-25           4      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  PERNUM             P  26-29           4      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  PERWT              P  30-33           4      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  SEX                P  34              1      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BIRTHYR            P  35-38           4      .       .       .       .       X       .       .       .       X       .       X       .       X       X       X       X       X       X       .       .       .       .       .       .       X 
+  NATIVITY           P  39-40           2      X       X       X       X       X       X       X       X       .       X       .       .       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  NAPPSTER           P  41-42           2      X       X       X       X       X       X       X       X       .       X       .       .       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  NAMEFRST           P  43-74          32      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  RESIDENT           P  75              1      X       .       .       .       .       .       .       .       .       X       .       .       .       X       X       X       .       .       .       .       .       .       .       .       . 
+  QSEXGB             P  76              1      .       .       .       .       .       X       X       X       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       . 
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+
+ SAMPLE		Sample identifier
+1241		Canada 1852
+1242		Canada 1871
+1243		Canada 1881
+1244		Canada 1891
+1245		Canada 1901
+3521		Iceland 1801
+3522		Iceland 1901
+2761		Mecklenburg-Schwerin 1819
+5781		Norway 1801
+5782		Norway 1865
+5783		Norway 1875
+5784		Norway 1900
+5785		Norway 1910
+7521		Sweden 1890
+7522		Sweden 1900
+8261		Great Britain 1851a
+8262		Great Britain 1881a
+8263		Great Britain 1881b
+8401		United States 1850
+8402		United States 1860
+8403		United States 1870
+8404		United States 1880a
+8405		United States 1880b
+8406		United States 1900
+8407		United States 1910
+
+ CNTRY		Country of residence
+124		Canada
+276		Germany
+352		Iceland
+578		Norway
+752		Sweden
+826		Great Britain
+840		United States
+
+ YEAR		Census year
+1801		1801
+1819		1819
+1850		1850
+1851		1851
+1852		1852
+1860		1860
+1865		1865
+1870		1870
+1871		1871
+1875		1875
+1880		1880
+1881		1881
+1890		1890
+1891		1891
+1900		1900
+1901		1901
+1910		1910
+
+ SEX		Sex
+1		Male
+2		Female
+8		Illegible
+9		Missing/blank
+
+ BIRTHYR		Birth year
+1702		1702
+1703		1703
+1704		1704
+1706		1706
+1707		1707
+1708		1708
+1709		1709
+1710		1710
+1711		1711
+1712		1712
+1713		1713
+1714		1714
+1715		1715
+1716		1716
+1717		1717
+1718		1718
+1719		1719
+1720		1720
+1721		1721
+1722		1722
+1723		1723
+1724		1724
+1725		1725
+1726		1726
+1727		1727
+1728		1728
+1729		1729
+1730		1730
+1731		1731
+1732		1732
+1733		1733
+1734		1734
+1735		1735
+1736		1736
+1737		1737
+1738		1738
+1739		1739
+1740		1740
+1741		1741
+1742		1742
+1743		1743
+1744		1744
+1745		1745
+1746		1746
+1747		1747
+1748		1748
+1749		1749
+1750		1750
+1751		1751
+1752		1752
+1753		1753
+1754		1754
+1755		1755
+1756		1756
+1757		1757
+1758		1758
+1759		1759
+1760		1760
+1761		1761
+1762		1762
+1763		1763
+1764		1764
+1765		1765
+1766		1766
+1767		1767
+1768		1768
+1769		1769
+1770		1770
+1771		1771
+1772		1772
+1773		1773
+1774		1774
+1775		1775
+1776		1776
+1777		1777
+1778		1778
+1779		1779
+1780		1780
+1781		1781
+1782		1782
+1783		1783
+1784		1784
+1785		1785
+1786		1786
+1787		1787
+1788		1788
+1789		1789
+1790		1790
+1791		1791
+1792		1792
+1793		1793
+1794		1794
+1795		1795
+1796		1796
+1797		1797
+1798		1798
+1799		1799
+1800		1800
+1801		1801
+1802		1802
+1803		1803
+1804		1804
+1805		1805
+1806		1806
+1807		1807
+1808		1808
+1809		1809
+1810		1810
+1811		1811
+1812		1812
+1813		1813
+1814		1814
+1815		1815
+1816		1816
+1817		1817
+1818		1818
+1819		1819
+1820		1820
+1821		1821
+1822		1822
+1823		1823
+1824		1824
+1825		1825
+1826		1826
+1827		1827
+1828		1828
+1829		1829
+1830		1830
+1831		1831
+1832		1832
+1833		1833
+1834		1834
+1835		1835
+1836		1836
+1837		1837
+1838		1838
+1839		1839
+1840		1840
+1841		1841
+1842		1842
+1843		1843
+1844		1844
+1845		1845
+1846		1846
+1847		1847
+1848		1848
+1849		1849
+1850		1850
+1851		1851
+1852		1852
+1853		1853
+1854		1854
+1855		1855
+1856		1856
+1857		1857
+1858		1858
+1859		1859
+1860		1860
+1861		1861
+1862		1862
+1863		1863
+1864		1864
+1865		1865
+1866		1866
+1867		1867
+1868		1868
+1869		1869
+1870		1870
+1871		1871
+1872		1872
+1873		1873
+1874		1874
+1875		1875
+1876		1876
+1877		1877
+1878		1878
+1879		1879
+1880		1880
+1881		1881
+1882		1882
+1883		1883
+1884		1884
+1885		1885
+1886		1886
+1887		1887
+1888		1888
+1889		1889
+1890		1890
+1891		1891
+1892		1892
+1893		1893
+1894		1894
+1895		1895
+1896		1896
+1897		1897
+1898		1898
+1899		1899
+1900		1900
+1901		1901
+1902		1902
+1903		1903
+1904		1904
+1905		1905
+1906		1906
+1907		1907
+1908		1908
+1909		1909
+1910		1910
+9998		Unknown
+9999		NIU (not in universe)
+
+ NATIVITY		Nativity
+10		Native-Born
+11		Both parents native-born
+12		Father foreign, mother native
+13		Mother foreign, father native
+14		Both parents foreign
+20		Foreign-born
+30		Born in a NAPP country other than home country
+90		Unknown
+
+ NAPPSTER		NAPP country of birth
+01		Canada
+02		United Kingdom
+03		Iceland
+04		Norway
+05		United States
+06		Sweden
+07		Denmark
+08		Mecklenburg-Schwerin
+09		Foreign-born, country unknown
+98		Non-Napp country
+99		Unknown birthplace
+
+ RESIDENT		Usual or temporary resident of household
+1		Present resident
+2		Absent resident
+3		Visitor/non-resident
+4		De facto population (present persons)
+
+ QSEXGB		Sex inferred
+0		Not altered
+1		Altered because relationship and first name imply different sex
+2		Altered on basis of first name only
+3		Altered on basis of first name only, head of household
+5		Alters relationship to head of household
+6		Altered based on a single or a combination of factors
