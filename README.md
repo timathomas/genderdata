@@ -1,27 +1,21 @@
-# Gender Data
+# genderdata
 
-This package contains several data sets of use for historians and social
-scientists studying gender. These data sets were compiled in this
-package for use with the [gender][] package for predicting gender from
-first names.
+This package contains several datasets of use for historians and social scientists studying gender. These data sets were compiled in this package for use with the [gender](https://github.com/ropensci/gender) package for predicting gender from first names.
 
 The raw data sets used in this package are available here:
 
--   [Mark Kantrowitz's name corpus][]
--   [Social Security Administration's baby names by year and state][]
--   [Social Security Administration's baby names by year][]
--   [IPUMS Census data][]
+-   [Mark Kantrowitz's name corpus](http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/0.html)
+-   [Social Security Administration's baby names by year and state](http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-data-by-state-and-district-of-)
+-   [Social Security Administration's baby names by year](http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data)
+-   [IPUMS Census data](https://usa.ipums.org/)
+-   [North Atlantic Population Project](https://www.nappdata.org/napp/)
 
-See also Hadley Wickham's [babynames][] package.
+See also Hadley Wickham's [babynames](https://github.com/hadley/babynames) package.
 
 ## Install
 
-Install it from GitHub with
-`devtools::install_github("lmullen/gender-data-pkg")`.
+This package can be installed from the [rOpenSci package repository](http://packages.ropensci.org/):
 
-  [gender]: https://github.com/ropensci/gender
-  [Mark Kantrowitz's name corpus]: http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/0.html
-  [Social Security Administration's baby names by year and state]: http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-data-by-state-and-district-of-
-  [Social Security Administration's baby names by year]: http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data
-  [IPUMS Census data]: https://usa.ipums.org/
-  [babynames]: https://github.com/hadley/babynames
+```
+install.packages("genderdata", repos = "http://packages.ropensci.org")
+```
