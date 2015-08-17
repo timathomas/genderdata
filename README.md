@@ -1,6 +1,7 @@
 # genderdata
 
 [![Travis-CI Build Status](https://travis-ci.org/ropensci/genderdata.svg?branch=master)](https://travis-ci.org/ropensci/genderdata)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/ropensci/genderdata?branch=master)](https://ci.appveyor.com/project/ropensci/genderdata)
 
 This package contains several datasets of use for historians and social scientists studying gender. These data sets were compiled in this package for use with the [gender](https://github.com/ropensci/gender) package for predicting gender from first names.
 
