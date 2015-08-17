@@ -27,6 +27,8 @@ napp <- napp_raw %>%
          nappster <= 7, nappster != 5, # keep only the countries we want
          !str_detect(name_lowered, "_"),
          !str_detect(name_lowered, "\\d"),
+         birthyear <= 1911,
+         !is.na(birthyear)
          ) %>%
   group_by(name, nappster, birthyear, sex) %>%
   tally(n) %>%
