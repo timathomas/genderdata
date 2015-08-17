@@ -1,14 +1,22 @@
 Package: genderdata
-Title: Historical data sets for the study of gender
-Version: 0.1
-Authors@R: c(person("Lincoln", "Mullen", email = "lincoln@lincolnmullen.com",
-    role = c("aut", "cre")), person("Cameron", "Blevins", role = "ctb"),
-    person("Ben", "Schmidt", role = "ctb"))
-Description: This package contains several historical data sets of use for
-    studying gender.
+Title: Historical datasets for the study of gender
+Version: 0.5.0.9000
+Authors@R: c(person("Lincoln", "Mullen",
+    email = "lincoln@lincolnmullen.com",
+    role = c("aut", "cre")),
+    person("Cameron", "Blevins", role = "ctb"),
+    person("Ben", "Schmidt", role = "ctb"),
+    person("U.S. Social Security Administration", role = "cph",
+    comment = "Social Security babynames datasets"),
+    person("Minnesota Population Center, University of Minnesota",
+    role = "cph", comment = "IPUMS and NAPP datasets"),
+    person("Mark Kantrowitz", role = "cph",
+    comment = "Kantrowitz name corpus"))
+Description: The historical datasets in this package are used in the 'gender'
+    package to predict gender from first names and birth years.
 Depends:
     R (>= 3.1.0)
 License: CC0
 LazyData: true
-URL: https://github.com/lmullen/gender-data-pkg
-BugReports: https://github.com/lmullen/gender-data-pkg/issues
+URL: https://github.com/ropensci/genderdata
+BugReports: https://github.com/ropensci/genderdata/issues
