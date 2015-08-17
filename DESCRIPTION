@@ -10,7 +10,7 @@ Authors@R: c(person("Lincoln", "Mullen",
     comment = "Social Security babynames datasets"),
     person("Minnesota Population Center, University of Minnesota",
     role = "cph", comment = "IPUMS and NAPP datasets"),
-    person("Bill Kantrowitz", role = "cph",
+    person("Mark Kantrowitz", role = "cph",
     comment = "Kantrowitz name corpus"))
 Description: The historical datasets in this package are used in the 'gender'
     package to predict gender from first names and birth years.
