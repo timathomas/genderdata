@@ -20,4 +20,4 @@ License: CC0
 LazyData: true
 URL: https://docs.ropensci.org/genderdata, https://github.com/ropensci/genderdata
 BugReports: https://github.com/ropensci/genderdata/issues
-RoxygenNote: 5.0.1
+RoxygenNote: 7.1.1

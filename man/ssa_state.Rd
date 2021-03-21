@@ -4,7 +4,9 @@
 \name{ssa_state}
 \alias{ssa_state}
 \title{Social Security Administration state names dataset}
-\format{A data frame with 5,267,234 observations and 5 variables}
+\format{
+A data frame with 5,267,234 observations and 5 variables
+}
 \source{
 Social Security Administration,
   \url{http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-data-by-state-and-district-of-}
@@ -19,4 +21,3 @@ Security Numbers. The SSA includes only names were used more than five times
 in a given state in a given year.
 }
 \keyword{datasets}
-

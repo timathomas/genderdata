@@ -4,7 +4,9 @@
 \name{napp}
 \alias{napp}
 \title{North Atlantic Population Project names dataset}
-\format{A data frame with c. 650k observations and 5 variables}
+\format{
+A data frame with c. 650k observations and 5 variables
+}
 \source{
 Minnesota Population Center.
   \href{https://www.nappdata.org/napp/}{North Atlantic Population Project:
@@ -22,4 +24,3 @@ from the \href{https://www.nappdata.org/napp/}{North Atlantic Population
 Project}.
 }
 \keyword{datasets}
-

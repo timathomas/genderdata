@@ -4,7 +4,9 @@
 \name{ssa_national}
 \alias{ssa_national}
 \title{Social Security Administration national names dataset}
-\format{A data frame with 1,603,026 observations and 4 variables}
+\format{
+A data frame with 1,603,026 observations and 4 variables
+}
 \source{
 Social Security Administration,
   \url{http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data}
@@ -19,4 +21,3 @@ Numbers. The SSA includes only names were used more than five times in a
 given year. The data set contains 91,320 unique names in total.
 }
 \keyword{datasets}
-

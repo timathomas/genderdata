@@ -4,7 +4,9 @@
 \name{kantrowitz}
 \alias{kantrowitz}
 \title{Katrowitz names corpus}
-\format{A data frame with 7,579 observations and 2 variables}
+\format{
+A data frame with 7,579 observations and 2 variables
+}
 \source{
 Mark Kantrowitz and Bill Ross,
   \url{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/0.html}
@@ -18,4 +20,3 @@ female names by Mark Kantrowitz and Bill Ross in 1991, also used in Python's
 Natural Language Toolkit.
 }
 \keyword{datasets}
-
