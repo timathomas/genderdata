@@ -4,7 +4,9 @@
 \name{ipums_usa}
 \alias{ipums_usa}
 \title{IPUMS US census national names dataset}
-\format{A data frame with c. 1.3m observations and 4 variables}
+\format{
+A data frame with c. 1.3m observations and 4 variables
+}
 \source{
 Steven Ruggles, J. Trent Alexander, Katie Genadek, Ronald Goeken,
   Matthew B. Schroeder, and Matthew Sobek. Integrated Public Use Microdata
@@ -25,4 +27,3 @@ included.
 Ben Schmidt
 }
 \keyword{datasets}
-
