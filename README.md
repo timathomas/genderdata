@@ -18,8 +18,9 @@ See also Hadley Wickham's [babynames](https://github.com/hadley/babynames) packa
 
 ## Install
 
-This package can be installed from the [rOpenSci package repository](http://packages.ropensci.org/):
+This package can be installed using the remotes package:
 
 ```
-install.packages("genderdata", repos = "http://packages.ropensci.org")
+# install.packages("remotes")
+remotes::install_github("lmullen/genderdata")
 ```
