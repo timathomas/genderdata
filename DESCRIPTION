@@ -1,6 +1,6 @@
 Package: genderdata
 Title: Historical Datasets for Predicting Gender from Names
-Version: 0.5.1
+Version: 0.6.0
 Authors@R: c(person("Lincoln", "Mullen",
     email = "lincoln@lincolnmullen.com",
     role = c("aut", "cre")),
