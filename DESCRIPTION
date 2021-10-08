@@ -1,6 +1,6 @@
 Package: genderdata
 Title: Historical Datasets for Predicting Gender from Names
-Version: 0.5.0
+Version: 0.5.1
 Authors@R: c(person("Lincoln", "Mullen",
     email = "lincoln@lincolnmullen.com",
     role = c("aut", "cre")),
@@ -19,7 +19,7 @@ Depends:
 License: CC0
 LazyData: true
 LazyDataCompression: xz
-URL: https://docs.ropensci.org/genderdata, https://github.com/ropensci/genderdata
-BugReports: https://github.com/ropensci/genderdata/issues
+URL: https://github.com/lmullen/genderdata
+BugReports: https://github.com/lmullen/genderdata/issues
 RoxygenNote: 7.1.2
 Encoding: UTF-8
