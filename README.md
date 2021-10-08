@@ -1,5 +1,8 @@
 # genderdata
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/lmullen/genderdata/workflows/R-CMD-check/badge.svg)](https://github.com/lmullen/genderdata/actions)
+<!-- badges: end -->
 
 This package contains several datasets of use for historians and social scientists studying gender. These data sets were compiled in this package for use with the [gender](https://github.com/ropensci/gender) package for predicting gender from first names.
 
