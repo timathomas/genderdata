@@ -9,8 +9,7 @@ This package contains several datasets of use for historians and social scientis
 The raw data sets used in this package are available here:
 
 -   [Mark Kantrowitz's name corpus](http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/0.html)
--   [Social Security Administration's baby names by year and state](http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-data-by-state-and-district-of-)
--   [Social Security Administration's baby names by year](http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data)
+-   [Social Security Administration's baby names by year (and by state and territories)](https://www.ssa.gov/oact/babynames/limits.html)
 -   [IPUMS Census data](https://usa.ipums.org/)
 -   [North Atlantic Population Project](https://www.nappdata.org/napp/)
 
